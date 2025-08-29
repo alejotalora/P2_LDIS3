@@ -1,0 +1,87 @@
+/* Encabezado */
+
+.encabezado-container {
+  display: grid;
+  grid-template-columns:30% 70%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Sección de lenguajes */
+
+.lenguajes-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Descripción */
+
+.descripcion-container {
+  display: grid;
+  text-align: center;
+  color: #7c3aed;
+  background-color: #f3e8ff;
+  padding: 10px;
+}
+
+/* Tarjetas globales */
+
+.tarjeta-lenguaje {
+  border-radius: 10px;
+  border: 1px solid #222;
+  color: #1e293b;
+  padding: 15px;
+  text-align: center;
+  background-color: #f1f5f9;
+}
+
+/* Fondo general */
+body {
+  background-color: lightgoldenrodyellow;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezados */
+h1{
+  color: purple;
+  margin: 0;
+}
+
+/* Colores por lenguaje */
+
+#Go, #TypeScript {
+  background-color: #fbb6ce;
+  color: #be185d;
+  text-align: right;
+}
+
+
+#Java, #Swift {
+  background-color: #bbf7d0;
+  color: #2563eb;
+  text-align: center;
+}
+
+#C, #JavaScript{
+  background-color: lightskyblue;
+  color: #000;
+  text-align: left;
+}
+
+/* Imágenes */
+img {
+  max-width: 25%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Logo centrado */
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
